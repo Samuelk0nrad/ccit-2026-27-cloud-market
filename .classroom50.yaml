@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "ccit-2026-27"
+assignment: "cloud-market"
+owner:
+  username: "Samuelk0nrad"
+  id: 114510161
+  accepted_at: "2026-09-23T10:09:26Z"
+source:
+  owner: "htlweiz-ahit-22"
+  owner_id: 316549626
+  repo: "tmpl-2026-27-5AHIT-CCIT-cloudmarket-monolith"
+  branch: "main"
