@@ -1,0 +1,26 @@
+{
+  "name": "cloudmarket-monolith",
+  "version": "1.0.0",
+  "description": "CloudMarket - monolithischer Online-Shop (Ausgangsbasis fuer das Cloud-Computing-Projekt)",
+  "main": "dist/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "ts-node-dev": "^2.0.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "@types/uuid": "^9.0.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
